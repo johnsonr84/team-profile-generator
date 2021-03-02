@@ -1,8 +1,8 @@
 # team-profile-generator
 
   [![github-follow](https://img.shields.io/github/followers/johnsonr84?label=Follow&logoColor=lightgrey&style=social)](https://github.com/johnsonr84)
-  [![project-languages-used](https://img.shields.io/github/languages/count/johnsonr84/readme-generator?color=orange)](https://github.com/johnsonr84/readme-generator)
-  [![project-top-language](https://img.shields.io/github/languages/top/johnsonr84/readme-generator?color=yellow)](https://github.com/johnsonr84/readme-generator)
+  [![project-languages-used](https://img.shields.io/github/languages/count/johnsonr84/team-profile-generator?color=orange)](https://github.com/johnsonr84/readme-generator)
+  [![project-top-language](https://img.shields.io/github/languages/top/johnsonr84/team-profile-generator?color=yellow)](https://github.com/johnsonr84/readme-generator)
   [![license](https://img.shields.io/badge/license-mit-brightgreen.svg)](https://choosealicense.com/licenses/mit/)
 
   ## Table of Contents 
@@ -51,7 +51,7 @@
   ## Resources
     
   * [Inquirer](https://www.npmjs.com/package/inquirer) 
-  * [Jest](https://www.npmjs.com/package/jest) for running the unit tests
+  * [Jest](https://www.npmjs.com/package/jest)
   * [Choose a License](https://choosealicense.com/)
   * [Badmath](https://img.shields.io/github/languages/top/nielsenjared/badmath)
   * [shields.io](https://shields.io/)

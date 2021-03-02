@@ -23,7 +23,7 @@
   Node.js command-line application that takes in information about employees on a software engineering team, then generates an HTML webpage that displays summaries for each person.
 
   ## Project URL
-  https://github.com/johnsonr84/readme-generator/ 
+  https://github.com/johnsonr84/team-profile-generator/ 
 
   ## Mock-Up
   ![team-profile-generator demo png](./images/)
@@ -37,7 +37,7 @@
    
 
   ## Credits 
-  Me, myself and Irene 
+  Did this one Han Solo 
 
   ## License 
   This project is [mit](https://choosealicense.com/licenses/mit/) licensed.

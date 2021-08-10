@@ -70,13 +70,13 @@
   </table>
 
   ## Installation 
-  [Inquirer](https://www.npmjs.com/package/inquirer) for collecting input from the user
+  To install this application, clone this repository into a folder of your choice.
 
   ## Usage 
-   
+  To generate the HTML for your team profile, run the index.js file in your terminal/ bash prompt and type 'node index.js'. This will initiate the prompt. Navigate the choices by using arrow keys or number keys. The generated html will be reflected in the teamHTML.js file in the src folder. 
 
   ## Credits 
-  Did this one Han Solo 
+  Another Han Solo project
 
   ## License 
   This project is [mit](https://choosealicense.com/licenses/mit/) licensed.
@@ -85,7 +85,7 @@
   Coming soon maybe 
 
   ## Tests
-  [Jest](https://www.npmjs.com/package/jest) for running the unit tests
+  [Jest](https://www.npmjs.com/package/jest) for running the unit tests type 'npm test' 
 
   ## Resources
     

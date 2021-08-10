@@ -3,7 +3,7 @@ const Engineer = require("../lib/engineer");
 describe("engineer", () => {
     describe("github", () => {
         it("should return new engineer github link", () =>{
-            let employeeLink = "Rob Johnson";
+            let employeeLink = "johnsonr84";
             let newLink = new Engineer("","","",employeeLink);
             expect(newLink.employeeLink).toBe(`https://github.com/johnsonr84`);
         })
@@ -11,27 +11,27 @@ describe("engineer", () => {
     describe("name", () => {
 
         it("should return new employee name", () => {
-            let employeeName = "Conor McGregor";
+            let employeeName = "Rob Johnson";
             let newEmployee = new Engineer(employeeName);
-            expect(newEmployee.employeeName).toBe("Conor McGregor");
+            expect(newEmployee.employeeName).toBe("Rob Johnson");
             console.log(newEmployee.employeeName);
         })
     })
     describe("id", () => {
 
         it("should return new employee id", () => {
-            let employeeId = "a123";
+            let employeeId = "b123";
             let newEmployee = new Engineer("", employeeId);
-            expect(newEmployee.employeeId).toBe("a123");
+            expect(newEmployee.employeeId).toBe("b123");
             console.log(newEmployee.employeeId);
         })
     })
     describe("email", () => {
 
         it("should return new employee email", () => {
-            let employeeEmail = "cmcgregor@gmail.com";
+            let employeeEmail = "robertcjohnson1984@gmail.com";
             let newEmployee = new Engineer("", "", employeeEmail);
-            expect(newEmployee.employeeEmail).toBe("cmcgregor@gmail.com");
+            expect(newEmployee.employeeEmail).toBe("robertcjohnson1984@gmail.com");
             console.log(newEmployee.employeeEmail);
         })
     })

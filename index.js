@@ -1,8 +1,9 @@
 // runs the application
 const inquirer = require("inquirer");
+const fs = require('fs');
 const Manager = require('./lib/manager');
 const Engineer = require('./lib/engineer');
-
+const Intern = require('./lib/intern');
 
 function manager() {
     //Manager info
@@ -37,12 +38,12 @@ function manager() {
 
             },
         ]).then((response) => {
-            
+
             let newEmployee = new Manager(response.employeeName, response.employeeId, response.employeeEmail, response.employeeNumber);
 
             const generateCard = teamHTML(newEmployee);
             fs.writeFileSync("./src/team.js", `\n${generateCard}`);
-           
+
             employee();
         })
 };
@@ -102,9 +103,49 @@ function employee() {
                         const generateCard = teamHTML(newEmployee);
                         fs.appendFileSync("./src/team.js", `\n${generateCard}`);
 
-                        //restart question loop for next employee
                         employee();
                     });
-                };
-            });
+            }
+            else { //Intern questions
+                inquirer
+                    .prompt([
+                        {
+                            type: 'input',
+                            name: 'employeeName',
+                            message: 'What is the employee name?',
+                        },
+                        {
+                            type: 'input',
+                            name: 'employeeId',
+                            message: 'Please assign a new employee number with the format i###',
+                        },
+                        {
+                            type: 'input',
+                            name: 'employeeEmail',
+                            message: 'What is the employee email address?',
+                            validate: function (input) {
+                                let test = validator.validate(input)
+                                if (test === false) {
+                                    console.log("Please enter a valid email.")
+                                }
+                                return test
+                            }
+                        },
+                        {
+                            type: 'input',
+                            name: 'employeeSchool',
+                            message: 'What school did this intern attend?',
+                        },
+                    ]).then((response) => {
+                        //run response through class Intern
+
+                        let newEmployee = new Intern(response.employeeName, response.employeeId, response.employeeEmail, response.employeeSchool);
+                        //appends to team.js
+                        const generateCard = teamHTML(newEmployee);
+                        fs.appendFileSync("./src/team.js", `\n${generateCard}`);
+                        //restart employee loop
+                        employee();
+                    });
+            };
+        });
     };

@@ -54,22 +54,18 @@
   ## Mock-Up
   <table>
   <tr>
-     <td>team-profile-generator</td>
-     <td>team-profile-generator</td>
+     <td>demo team-profile-generator</td>
   </tr>
   <tr>
-    <td><img src="img/10-object-oriented-programming-homework-demo.png" height=300 alt="screenshot of team-profile-generator"></td>
-    <td><img src="img/10-OOP-homework-demo-1.png" height=300 alt="screenshot of team-profile-generator"></td>
+    <td><img src="img/team-profiles.png" height=400 alt="demo of team-profile-generator"></td>
   </tr>
   </table>
   <table>
     <tr>
-      <td>team-profile-generator</td>
-      <td>team-profile-generator</td>
+      <td>team-profile-generator screenshot</td>
     </tr>
     <tr>
-      <td><img src="img/10-OOP-homework-demo-2.png" height=300 alt="screenshot of team-profile-generator"></td>
-      <td><img src="img/10-OOP-homework-demo-2.png" height=300 alt="screenshot of team-profile-generator"></td>
+      <td><img src="img/team-profiles.png" height=400 alt="screenshot of team-profile-generator"></td>
   </tr>
   </table>
 

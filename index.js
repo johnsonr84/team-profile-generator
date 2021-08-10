@@ -1,9 +1,11 @@
 // runs the application
 const inquirer = require("inquirer");
 const fs = require('fs');
+const teamHTML = require('./src/teamHTML');
 const Manager = require('./lib/manager');
 const Engineer = require('./lib/engineer');
 const Intern = require('./lib/intern');
+var validator = require("email-validator");
 
 function manager() {
     //Manager info
@@ -17,7 +19,7 @@ function manager() {
             {
                 type: 'input',
                 name: 'employeeId',
-                message: 'Please enter the manager Id with the format m###:',
+                message: 'Please enter the manager Id with the format a###:',
             },
             {
                 type: 'input',
@@ -76,7 +78,7 @@ function employee() {
                         {
                             type: 'input',
                             name: 'employeeId',
-                            message: 'Please assign a new employee number with the format e###',
+                            message: 'Please assign a new employee number with the format b###',
                         },
                         {
                             type: 'input',
@@ -117,7 +119,7 @@ function employee() {
                         {
                             type: 'input',
                             name: 'employeeId',
-                            message: 'Please assign a new employee number with the format i###',
+                            message: 'Please assign a new employee number with the format c###',
                         },
                         {
                             type: 'input',

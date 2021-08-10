@@ -1,16 +1,29 @@
 {
-  "name": "employee-tracker",
+  "name": "team-profile-generator",
   "version": "1.0.0",
-  "description": "Basic application for MY SQL.",
+  "description": "",
   "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johnsonr84/team-profile-generator.git"
   },
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://https://github.com/johnsonr84/team-profile-generator/issues"
+  },
+  "homepage": "https://https://github.com/johnsonr84/team-profile-generator#readme",
+  "devDependencies": {
+    "jest": "^26.6.3"
+  },
   "dependencies": {
     "email-validator": "^2.0.4",
-    "inquirer": "^8.1.2",
-    "jest": "^27.0.6"
+    "inquirer": "^8.1.2"
   }
 }

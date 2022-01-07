@@ -1,9 +1,15 @@
-# team-profile-generator
+<h1 align="center"><a href=" https://johnsonr84.github.io/work-day-scheduler/">👩‍💻 Team Profile Generator 👨‍💻</a></h1>
+
+  ## Description 
+  Node.js command-line application that takes in information about employees on a software engineering team, then generates an HTML webpage that displays summaries for each person.
 
   [![github-follow](https://img.shields.io/github/followers/johnsonr84?label=Follow&logoColor=lightgrey&style=social)](https://github.com/johnsonr84)
   [![project-languages-used](https://img.shields.io/github/languages/count/johnsonr84/team-profile-generator?color=orange)](https://github.com/johnsonr84/readme-generator)
   [![project-top-language](https://img.shields.io/github/languages/top/johnsonr84/team-profile-generator?color=yellow)](https://github.com/johnsonr84/readme-generator)
   [![license](https://img.shields.io/badge/license-mit-brightgreen.svg)](https://choosealicense.com/licenses/mit/)
+
+## Built With
+[![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)](https://www.javascript.com/)
 
   ## Table of Contents 
   * [Description](#Description)
@@ -18,12 +24,9 @@
   * [Tests](#Tests)
   * [Resources](#Resources)
   * [Contact](#Contact)
-  * [Designed and built by](#Designed-and-built-by)
+  * [Author](#Author)
   #
   
-  ## Description 
-  Node.js command-line application that takes in information about employees on a software engineering team, then generates an HTML webpage that displays summaries for each person.
-
    ## UserStory 
   ```
   AS A manager
@@ -53,16 +56,13 @@
   ## Project URL
   https://github.com/johnsonr84/team-profile-generator
 
-  ## Deployment
-  
-
   ## Mock-Up
   <table>
   <tr>
      <td>demo team-profile-generator</td>
   </tr>
   <tr>
-    <td><img src="img/team-profile.gif" height=400 alt="demo of team-profile-generator"></td>
+    <td><img src="img/team-profile.gif" width=500 alt="demo of team-profile-generator"></td>
   </tr>
   </table>
   <table>
@@ -70,7 +70,7 @@
       <td>team-profile-generator screenshot</td>
     </tr>
     <tr>
-      <td><img src="img/team-profiles.png" height=400 alt="screenshot of team-profile-generator"></td>
+      <td><img src="img/team-profiles.png" width=500 alt="screenshot of team-profile-generator"></td>
   </tr>
   </table>
 
@@ -106,7 +106,7 @@
   ## Contact
   Email: robertcjohnson1984@gmail.com 
 
-  ## Designed and built by
+  ## Author
   Author(s): Rob Johnson  
 
   GitHub: https://github.com/johnsonr84/ 
